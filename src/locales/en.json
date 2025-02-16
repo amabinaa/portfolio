@@ -1,0 +1,33 @@
+{
+  "about": {
+    "title": "About Me",
+    "description": "Hello! My name is Burxanova Sabina. I specialize in Fronted development and UI/Ux design.",
+    "email": "📧 Email: @sburhanova04@gamil.com",
+    "phone": "📞 Phone: +998(90)955 90 25",
+    "skills": "My Skills",
+    "html": "Creating semantic and accessible markup.",
+    "css": "Styling and animations using modern approaches.",
+    "javascript": "Developing interactive and dynamic web applications.",
+    "typescript": "Typing and improving code quality.",
+    "vue": "Building SPAs with Vue.js and Vuex.",
+    "react": "Creating component-based and scalable applications."
+  },
+  "header": {
+    "title": "My portfolio"
+  },
+  "home": {
+    "title": "Welcome",
+    "text": "Frontend Development & UI/UX design"
+  },
+  "sidebar": {
+    "menu": "Menu",
+    "me": "About me",
+    "main": "Home page",
+    "projects": "Projects"
+  },
+  "projects": {
+    "title": "My projects",
+    "link": "Go to repository",
+    "desc": "No description available"
+  }
+}
