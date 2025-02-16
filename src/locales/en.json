@@ -17,7 +17,12 @@
   },
   "home": {
     "title": "Welcome",
-    "text": "Frontend Development & UI/UX design"
+    "text": "Frontend Development & UI/UX design",
+    "intro":"Hi, I’m <b>Burxanova Sabina</b>, a junior <b><i>front-end developer</i></b> and <b><i>UI/UX design enthusiast</i></b> passionate about crafting clean, user-friendly interfaces. As a sophomore at <b>New Uzbekistan University</b>, majoring in <i>Software Engineering</i>, I thrive on turning creative ideas into interactive digital experiences. Let’s build something amazing together! 🚀`",
+    "facts":"Did you know? Over <strong>70% of users</strong> judge a website's credibility based on its design and performance.",
+    "facts2":"JavaScript is the most commonly used programming language, with over <strong>97% of websites</strong> using it.",
+    "facts3":"Fun fact: A well-designed user interface can increase user retention by up to <strong>200%</strong>.",
+    "facts4":"The average user spends <strong>2.6 seconds</strong> scanning a website's content before focusing on a particular section."
   },
   "sidebar": {
     "menu": "Menu",
@@ -30,4 +35,5 @@
     "link": "Go to repository",
     "desc": "No description available"
   }
+
 }

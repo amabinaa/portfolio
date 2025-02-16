@@ -2,7 +2,6 @@ import fron from "../images/fronted1.jpg";
 import ted from "../images/fronted2.jpg";
 import ui from '../images/ui.jpg';
 import ux from '../images/ux.jpg'
-import { Link } from "react-router-dom";
 import Typewriter from "./Typewriter";
 import { useTranslation } from "react-i18next";
 
@@ -30,10 +29,7 @@ const Home = () => {
               <img src={fron} alt="Frontend Development" />
             </div>
             <div className="content">
-              <p>
-                Did you know? Over <strong>70% of users</strong> judge a
-                website's credibility based on its design and performance.
-              </p>
+              <p dangerouslySetInnerHTML={{ __html: t("home.facts") }}></p>
             </div>
           </div>
           <div className="box">
@@ -41,10 +37,7 @@ const Home = () => {
               <img src={ted} alt="Frontend Development" />
             </div>
             <div className="content">
-              <p>
-                JavaScript is the most commonly used programming language, with
-                over <strong>97% of websites</strong> using it.
-              </p>
+              <p dangerouslySetInnerHTML={{ __html: t("home.facts2") }}></p>
             </div>
           </div>
           <div className="box">
@@ -52,10 +45,7 @@ const Home = () => {
               <img src={ui} alt="UI/UX Design" />
             </div>
             <div className="content">
-              <p>
-                Fun fact: A well-designed user interface can increase user
-                retention by up to <strong>200%</strong>.
-              </p>
+              <p dangerouslySetInnerHTML={{ __html: t("home.facts3") }}></p>
             </div>
           </div>
           <div className="box">
@@ -63,9 +53,8 @@ const Home = () => {
               <img src={ux} alt="UI/UX Design" />
             </div>
             <div className="content">
-              <p>
-                Fun fact: A well-designed user interface can increase user
-                retention by up to <strong>200%</strong>.
+              <p dangerouslySetInnerHTML={{ __html: t("home.facts4") }}>
+                
               </p>
             </div>
           </div>

@@ -13,7 +13,7 @@ const Projects = () => {
        
         const reposWithThumbnails = response.data.map((repo) => ({
           ...repo,
-          thumbnail: `https://raw.githubusercontent.com/amabinaa/${repo.name}/main/thumbnail.png`, 
+          thumbnail: `https://raw.githubusercontent.com/amabinaa/${repo.name}/master/thumbnail.png`, 
         }));
         setRepos(reposWithThumbnails);
       })
