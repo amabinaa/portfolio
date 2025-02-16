@@ -453,10 +453,6 @@ body.dark-theme .switch-handle {
   background-color: var(--retro-secondary);
 }
 
-
-
-
-
 .language-switcher {
   display: flex;
   gap: 10px;
@@ -575,8 +571,6 @@ body.dark-theme .switch-handle {
   transform: translateY(0px);
 }
 
-
-
 @keyframes blink {
   0%,
   100% {
@@ -587,4 +581,143 @@ body.dark-theme .switch-handle {
   }
 }
 
+/* Media Queries for Smaller Screens */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
 
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .sidebar {
+    width: 200px;
+  }
+
+  .sidebar h2 {
+    font-size: 1.25rem;
+  }
+
+  .sidebar nav ul li a {
+    font-size: 1rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .skill-icon {
+    font-size: 2rem;
+  }
+
+  .skill span {
+    font-size: 1rem;
+  }
+
+  .skill-description {
+    font-size: 0.8rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .project-thumbnail {
+    height: 120px;
+  }
+
+  .about-section img {
+    max-width: 250px;
+  }
+
+  .social-icon {
+    font-size: 1.5rem;
+  }
+
+  .theme-switcher {
+    font-size: 0.7rem;
+  }
+
+  .switch-container {
+    width: 50px;
+    height: 25px;
+  }
+
+  .switch-handle {
+    width: 21px;
+    height: 21px;
+  }
+
+  .switch-handle.dark {
+    transform: translateX(25px);
+  }
+
+  .language-switcher button {
+    font-size: 0.7rem;
+    padding: 4px 8px;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .container .box {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin-top: 20px;
+  }
+
+  .container .box .content p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+
+  header h1 {
+    font-size: 1.25rem;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .sidebar {
+    width: 180;
+  }
+
+}
